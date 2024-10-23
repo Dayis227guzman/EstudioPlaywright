@@ -1,0 +1,6 @@
+npx playwright install - para instalar /actualizar
+npm install -D @playwright/test@Latest  / para actualizar version
+npm i dotenv --save-dev / crear ambiente dev
+npx playwright test / ejecutar test
+npx playwright test simuladorAhorroLulo.spec.ts -g "test simular ahorro lulo ok"/ ejecutar test especifico
+npx playwright test simuladorAhorroLulo.spec.ts -g "test simular ahorro lulo ok" --repeat-each 2 / repitir varias veces que ejecute el test
