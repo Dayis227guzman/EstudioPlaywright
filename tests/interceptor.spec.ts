@@ -39,8 +39,6 @@ test('ejemplo interceptor', async ({ page }) => {
 test('ejemplo interceptor respuesta servio', async ({ page }) => {
 
 
-    //todas las imagenes
-
     await page.route(
         "https://demoqa.com/BookStore/v1/Books",
         (route) => (
